@@ -48,3 +48,22 @@ function login(username,password){
 }
 
 login("cliffy",1234)
+
+
+function ticketPrice(age){
+    if (age < 18){
+        if(age < 5 ){
+            console.log("Ticket: Free");
+        } else {
+            console.log("Ticket: Child Price");
+        }
+    } else {
+        if (age >=60){
+            console.log("Ticket: Senior Discount");
+        } else {
+            console.log("Ticket: Adult Price");
+        }
+    }
+}
+
+ticketPrice(70);
