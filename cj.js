@@ -31,3 +31,20 @@ function computeGrade(grade){
 
 computeGrade(87);
 
+function login(username,password){
+
+    if(username === "cliffy"){
+        
+        if(password === 1234){
+            console.log("Welcome User");
+        } else {
+            console.log("Invalid Login Credentials");
+        }
+
+    } else {
+        console.log("Invalid User");
+    }
+
+}
+
+login("cliffy",1234)
