@@ -1,102 +1,48 @@
-// function add(num1,num2){
-//     sum = num1 + num2
-//     console.log(sum);
-// }
-//  console.log (add(10,9));
-
- 
-// function diff(num1,num2){
-
-//     diff = num1 - num2
-//     console.log(diff);
-// }
-//     console.log (diff(10,9));
-
-// function prod(num1,num2){
-
-//     prod = num1*num2
-//     console.log(prod);  
-// }
-//       console.log(prod(10,9));
-
-// function quo(num1,num2){
-//     quo = num1 / num2
-//     console.log(quo);   
-// }
-//      console.log(quo(10,9));
-
-
-//      function LegalAge(age){
-//         if(age >=18){
-//             console.log("You are are adult");   
-//         }else{
-//             console.log("you are not an adult")
-//         }
-
-//      }
-
-//      LegalAge(69);
-
-
-//  function ComputerGrade(grade){
-//     if(grade >=94.5){
-//         console.log("1");
-
-//     }else if(grade=>91.5){
-//         console.log("1.25");
-
-//     }else if(grade>= 89.5){
-//         console.log("1.50");
-
-//     }else if(grade>=86.5){
-//         console.log("1.75");
-
-//     }else if (grade>= 84.5){
-//         console.log("2");
-
-//     }else {
-//         console.log("Not within the transmutation");
-//     }
-//  }  
- 
-//  ComputerGrade(87);
-
-
-//  function login(username,password){
-
-//     if(username ==="huntz"){
-//         console.log("Welcome User");
-      
-//     }else{
-//         console.log("Invalid log in credentials");
-
-//     }else{
-//         console.log("Invalid user")
-//     }
-
-//  }
-//  login(huntz,1234)
-
-
-
-
- function TicketPrice(age){
-    if(age>= 18){
-        if(age<=5){   
-        
-        console.log("Ticket:Free");
-        }else{
-        console.log("Ticket:Child Price");
-      }
-    }else{
-
-        if (age>=60){
-            console.lof("Ticket Senior Discount");
-        }else{
-            console.log("Ticke:Adult Price");
-        }
-     }
-
+function sum(num1,num2){
+    sum = num1 + num2;
+    console.log(sum);
 }
 
-TicketPrice(70);
+function diff(num1,num2){
+    diff = num1 - num2;
+    console.log(diff);
+}
+
+function prod(num1,num2){
+    prod = num1 * num2;
+    console.log(prod);
+}
+
+function quo(num1,num2){
+    quo = num1 / num2;
+    console.log(quo);
+}
+/*
+sum(2,3);
+diff(2,3);
+prod(2,3);
+quo(2,3);
+*/
+function add(num1,num2){
+    return num1 + num2;
+}
+
+
+function subtract(num1,num2){
+    return num1 - num2;
+}
+
+
+function multiply(num1,num2){
+    return num1 * num2;
+}
+
+
+function divide(num1,num2){
+    return num1 / num2;
+}
+
+console.log(add(2,3));
+console.log(subtract(2,3));
+console.log(multiply(2,3));
+console.log(divide(2,3));
