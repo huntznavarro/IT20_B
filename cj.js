@@ -6,3 +6,4 @@ function legalAge(age){
         console.log("You are not an adult");
     }
 }
+legalAge(69);
